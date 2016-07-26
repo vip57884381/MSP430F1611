@@ -1,0 +1,14 @@
+#include <in430.h>
+#include <msp430f1611.h>
+#include <string.h>
+#include "module/H/delay.h"
+#include "module/H/type.h"
+#include "module/H/_7SEG.h"
+#include "module/H/_4_7SEG.h"
+#include "module/H/_4x4keyboard.h"
+#include "module/H/lcd.h"
+#include "module/H/adc0804.h"
+#include "module/H/dac08.h"
+#include "module/H/uart.h"
+#include "module/H/_93C46.h"
+#include "module/H/_24C02.h"

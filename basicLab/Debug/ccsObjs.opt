@@ -1,0 +1,1 @@
+"./main.obj" "./module/C/uart.obj" "./module/C/lcd.obj" "./module/C/delay.obj" "./module/C/dac08.obj" "./module/C/adc0804.obj" "./module/C/_93C46.obj" "./module/C/_7SEG.obj" "./module/C/_4x4keyboard.obj" "./module/C/_4_7SEG.obj" "./module/C/_24C02.obj" -l"libc.a" "../lnk_msp430f1611.cmd" 

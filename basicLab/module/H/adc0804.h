@@ -1,0 +1,9 @@
+#define RD_ADC0804_LOW  P1OUT &= ~BIT6
+#define RD_ADC0804_HIGH P1OUT |= BIT6
+#define WR_ADC0804_LOW  P1OUT &= ~BIT5
+#define WR_ADC0804_HIGH P1OUT |= BIT5
+#define INTR_ADC0804_LOW ~(P1IN & BIT7)
+#define INTR_ADC0804_HIGH P1IN & BIT7
+
+void ADC0804_initIO();
+UINT8 ADC0804_getValue(); // ADC °Æµ{¦¡
